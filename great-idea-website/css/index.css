@@ -74,11 +74,14 @@ h1, h2, h3, h4, h5 {
 
 .navbar{
 	margin-left: 2%;
+	background-color:#b3e5fc;
 }
 .navbar .nav-links .nav-item{
 	margin: 0 30px;
 	text-decoration: none;
-	color: grey;
+	color: #000000;
+	font-family: 'Bangers', cursive;
+	font-size: 20px;;
 }
 .nav-item:hover{
 	font-size: 120%;
@@ -109,6 +112,7 @@ width: 40%;
 div.presentation h1 {
 	font-size: 120px;
 	text-align: center;
+	color: #052869;
 }
 
 .wrapper img {
@@ -119,16 +123,26 @@ div.presentation h1 {
 button {
 	height: 40px;
 	width: 200px;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	margin: 0 100px;
 	font-size: 20px;
-	
+	background: #0a7926;
+	border-radius: 25px;
+	color: #fff;
+}
+
+button:hover {
+	background: #55f07c;
+	color: #000000;
 }
 
 div.presentation, .div.hero-img {
 	margin-bottom: 80px;
 }
 
+h2 {
+	color: #052869;
+}
 
 /* Style for Section "Main-Info" */
 
@@ -192,5 +206,6 @@ section.contact-info address {
 section.contact-info p.copyright {
 	text-align: center;
 	margin-top: 100px 0;
-	font-size: 18px;
+	font-size: 15px;
+	font-weight: bold;
 }
